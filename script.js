@@ -75,7 +75,7 @@ function searchitem(e){
     Array.from(list).forEach(function(item){
         let itemname = item.firstChild.textContent;
         if(itemname.toLowerCase().indexOf(searchtext) != -1){
-            item.style.display = 'block';
+            item.style.display = 'flex';
         }
         else{
             item.style.display = 'none';
